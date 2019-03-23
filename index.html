@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>wafflestudio Application</title>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet
+">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#tabs" ).tabs();
+        });
+      </script>
+    <style>
+      #tabs { 
+        background: transparent; 
+        border: none; 
+        font-family: 'Jeju Gothic', sans-serif;
+      } 
+      #tabs .ui-widget-header { 
+        background: transparent; 
+        border: none; 
+        border-bottom: 1px solid #c0c0c0; 
+        -moz-border-radius: 0px; 
+        -webkit-border-radius: 0px; 
+        border-radius: 0px; 
+      }
+      #tabs .ui-tabs-nav {
+        display: flex;
+        justify-content: center;
+      }
+      #tabs .ui-tabs-nav .ui-state-default { 
+        background: transparent; 
+        border: none; 
+      } 
+      #tabs .ui-tabs-nav .ui-state-active { 
+        background: transparent no-repeat bottom center; 
+        border: none; 
+      } 
+      #tabs .ui-tabs-nav .ui-state-default a { 
+        color: lightgray; 
+      } 
+      #tabs .ui-tabs-nav .ui-state-active a { 
+        color: green; 
+      }
+    </style>
+	</head>
+	<body>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">About me</a></li>
+				<li><a href="#tabs-2">Experience</a></li>
+				<li><a href="#tabs-3">Why Waffle?</a></li>
+			</ul>
+			<div id="tabs-1" style="display: flex; justify-content: center;">
+				<div style="color: white; background: pink; padding: 10px; width: 50em; border-radius: 20px;">
+            <h2>이름</h2>
+            <h4>음정훈</h4>
+            <h2>핸드폰</h2>
+            <h4>010-9300-4346</h4>
+            <h2>이메일</h2>
+            <h4>mymoto23@naver.com</h4>
+        </div>
+			</div>
+			<div id="tabs-2" style="display: flex; justify-content: center;">
+        <div style="color: white; background: coral; padding: 10px; width: 50em; border-radius: 20px;">
+        <h2>개발 경험</h2>
+				<ul>
+          <li>Firebase 응용 Android App (Java 사용)</li>
+            <div style="background: lightgray; padding: 8px; border-radius: 5px; margin: 5px; ">
+            고등학교 시절 재미로 안드로이드 앱을 만들어 본 경험이 있습니다. 비록 미숙했지만 구글에서 이것저것 찾아보며 Firebase 라이브러리를 사용해 DB 를 연결하고 앱에 유저, 채팅, 게시판 등의 간단한 기능을 구현해 본 경험이 있습니다.
+            </div>   
+          <li>EASI6 인턴 웹 개발</li>
+          <div style="background: lightgray; padding: 8px; border-radius: 5px; margin: 5px; ">
+            최근에 Ride-Hailing 서비스를 제공하는 회사에서 인턴을 할 기회가 주어져 웹 개발은 물론이고, 개발 과정과 전체적인 흐름에 대해 정말 많은 걸 배울 수 있었습니다.  
+            </div>   
+        </ul>
+        <h2>개발 가능 언어</h2>
+          <ul>
+            <li>Java (Android Studio)</li>
+            <li>js (React)</li>
+            <li>Python (Django)</li>
+            <li>C/C# (.REST)</li>
+          </ul>
+        </div>
+			</div>
+			<div id="tabs-3" style="display: flex; justify-content: center;">
+        <div style="color: white; background: maroon; padding: 10px; width: 50em; border-radius: 20px;">
+          <h2>지원 동기</h2>
+          <div style="background: beige; padding: 8px; border-radius: 5px; margin: 5px; color: gray;">
+          &nbsp;고등학교 때 안드로이드 앱을 간단하게 만들어 본 경험밖에 없었던 저한테 개발은 미지의 세계였습니다. 하지만 인턴을 시작하고 난 뒤 체계적으로 진행되는 개발 과정에 참여해 직접 경험하며 저는 비로소 개발에 첫 걸음을 내딛을 수 있었습니다. 와플에서 활동 중이신 분들과 같이 협업하여 주도적으로 프로젝트를 진행해보고 싶은 마음에 지원을 하게 되었습니다. 
+          <br />
+          &nbsp;개발에 대해 더 많이 배우고 경험해보고 싶은 마음도 있지만, 프로그래밍의 본질에 다가가고 싶은 마음도 있습니다. 개발은 결국 사람들의 삶에 편의를 더해주기 위해 하는 것이라고 생각됩니다. 식샤와 같이 학생들에게 유용한 어플을 만드는 데 기여하고 모두가 쉽게 사용할 수 있는 서비스를 제공하는 경험을 해보고 싶습니다. 
+          </div>
+          <h2>각오</h2>
+          <div style="background: beige; padding: 8px; border-radius: 5px; margin: 5px; color: gray;">
+          &nbsp; 와플과 함께 하게 된다면 언제나 배움의 자세로 임하며 다양한 시각을 제공하여 서비스를 발전시킬 수 있도록 노력하겠습니다. 감사합니다.
+          </div>
+        </div>
+			</div>
+		</div>
+	</body>
+</html>
